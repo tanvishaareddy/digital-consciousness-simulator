@@ -282,3 +282,92 @@ section {
   line-height: 2;
   animation: fadeIn 0.3s ease;
 }
+
+.developers-section{
+background: radial-gradient(circle at top,#0a0f1c,#02050a);
+color:white;
+text-align:center;
+padding:100px 20px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.dev-top{
+color:#00fff2;
+letter-spacing:4px;
+font-size:14px;
+}
+
+.dev-heading{
+font-size:48px;
+margin:10px 0;
+}
+
+.dev-text{
+max-width:650px;
+margin:auto;
+color:#bdbdbd;
+margin-bottom:60px;
+}
+
+.dev-wrapper{
+display:flex;
+justify-content:center;
+gap:50px;
+flex-wrap:wrap;
+}
+
+.dev-box{
+width:340px;
+padding:35px;
+border:1px solid rgba(0,255,255,0.3);
+border-radius:12px;
+background:rgba(255,255,255,0.03);
+backdrop-filter:blur(12px);
+transition:0.4s;
+position:relative;
+overflow:hidden;
+}
+
+.dev-box:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #00fff2;
+}
+
+.dev-id{
+position:absolute;
+top:15px;
+left:20px;
+color:#00fff2;
+font-size:14px;
+}
+
+.dev-box h2{
+margin-top:20px;
+font-size:26px;
+}
+
+.dev-box p{
+color:#a0a0a0;
+margin:15px 0;
+}
+
+.dev-btns{
+margin-top:20px;
+}
+
+.dev-btns a{
+text-decoration:none;
+color:white;
+border:1px solid #00fff2;
+padding:10px 25px;
+margin:6px;
+display:inline-block;
+border-radius:4px;
+transition:0.3s;
+}
+
+.dev-btns a:hover{
+background:#00fff2;
+color:black;
+box-shadow:0 0 10px #00fff2;
+}
